@@ -9,5 +9,23 @@
     placeholder="insira a nota 1 ">
     <input type = "number" max = "100" id = "nota2"
     placeholder="inira a nota 2">
+    <button id = "calcular" onclick "calcular()"> calcular </button>
+    <p> A sua média é: <span id = "média"> </span></p>
+    <p id = "status"></p>
+    //Até aqui é a base do front end (comentario)
+
+    <script>
+      function Calcular(){
+        var N1, N2, média;
+        N1 = document.getElementById(nota 1).value;
+        N2 = document.getElementById(nota 2).value;
+        média = (parseFloat(N1)+ parseFloat(N2))/2
+        document.getElementById('MEDIA').innerHTML = MEDIA
+        if(MEDIA<70){
+          document.getElementById('STATUS').innerHTML = "REPROVADO"
+        }else
+        document.getElementById('STATUS').innerHTML = "APROVADO"
+      }
+    </script>   
   </body>
 </html>
